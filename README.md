@@ -1,3 +1,19 @@
-# sbaerlocher
+# Hi, I'm Simon 👋
 
-[![sbaerlocher github stats](https://github-readme-stats.vercel.app/api?username=sbaerlocher&show_icons=true&count_private=false&layout=compact&hide_border=true)](https://github.com/sbaerlocher?tab=repositories)[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbaerlocher&layout=compact&langs_count=10&hide=c%23,powershell&hide_border=true)](https://github.com/sbaerlocher?tab=repositories)
+IT Solution Architect specializing in infrastructure automation and scalable systems.
+
+I transform complex infrastructure into elegant, self-healing solutions — so teams can focus on what matters.
+
+![Contribution Stats](https://stats.sbaerlo.ch/api/v1/contributions?username=sbaerlocher)
+![Top Languages](https://stats.sbaerlo.ch/api/v1/languages?username=sbaerlocher&limit=5)
+![Project Distribution](https://stats.sbaerlo.ch/api/v1/distribution?username=sbaerlocher)
+
+## Focus Areas
+
+- Infrastructure Automation & Orchestration
+- Network Architecture & Resilience
+- Open-Source Tooling & Contributions
+
+## Connect
+
+🌐 [sbaerlocher.ch](https://sbaerlocher.ch)
