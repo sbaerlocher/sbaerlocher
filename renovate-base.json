@@ -48,6 +48,7 @@
   "vulnerabilityAlerts": {
     "labels": ["dependencies", "security"],
     "addLabels": ["priority-high"],
+    "prPriority": 20,
     "automerge": true,
     "schedule": ["at any time"]
   }
