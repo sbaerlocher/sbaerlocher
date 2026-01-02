@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>sbaerlocher/sbaerlocher:renovate-base"],
+  "enabledManagers": ["terraform", "github-actions"],
+  "packageRules": [
+    {
+      "description": "Group Terraform Providers",
+      "matchManagers": ["terraform"],
+      "matchDatasources": ["terraform-provider"],
+      "groupName": "terraform-providers"
+    },
+    {
+      "description": "Terraform Major manual",
+      "matchManagers": ["terraform"],
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}

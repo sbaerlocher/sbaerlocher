@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>sbaerlocher/sbaerlocher:renovate-base"],
+  "enabledManagers": ["kubernetes", "custom.regex", "github-actions"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Fleet Helm Charts",
+      "managerFilePatterns": ["/(^|/)fleet\\.ya?ml$/"],
+      "matchStrings": ["..."],
+      "datasourceTemplate": "helm"
+    }
+  ]
+}

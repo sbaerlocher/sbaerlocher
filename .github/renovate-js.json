@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>sbaerlocher/sbaerlocher:renovate-base"],
+  "packageRules": [
+    {
+      "groupName": "ESLint",
+      "matchPackageNames": ["/^eslint/", "/^@eslint/"]
+    },
+    {
+      "groupName": "Vitest",
+      "matchPackageNames": ["/^vitest/", "/^@vitest/"]
+    },
+    {
+      "groupName": "TypeScript",
+      "matchPackageNames": ["typescript"],
+      "automerge": false
+    }
+  ]
+}
