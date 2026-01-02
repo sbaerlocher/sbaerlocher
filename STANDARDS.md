@@ -241,7 +241,7 @@ Shared presets in root can be extended by other repos.
 
 ```json
 {
-  "extends": ["local>sbaerlocher/sbaerlocher:renovate-base"]
+  "extends": ["github>sbaerlocher/sbaerlocher:renovate-base"]
 }
 ```
 
@@ -249,7 +249,7 @@ Or for JS/TS projects:
 
 ```json
 {
-  "extends": ["local>sbaerlocher/sbaerlocher:renovate-js"]
+  "extends": ["github>sbaerlocher/sbaerlocher:renovate-js"]
 }
 ```
 

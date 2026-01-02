@@ -1,4 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>sbaerlocher/sbaerlocher:renovate-gitops"]
+  "extends": ["github>sbaerlocher/sbaerlocher:renovate-gitops"]
 }
