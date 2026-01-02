@@ -226,7 +226,7 @@ See [templates/vitest.config.ts](./templates/vitest.config.ts)
 
 ### Renovate Configuration
 
-Shared presets in [.github/](./.github/) can be extended by other repos.
+Shared presets in root can be extended by other repos.
 
 **Available Presets:**
 
