@@ -266,6 +266,7 @@ For more complex projects additionally:
 | `ARCHITECTURE.md` | System design, components, decisions | Infrastructure, monorepos |
 | `OPERATIONS.md` | Runbooks, troubleshooting, maintenance | Production services |
 | `DEPLOYMENT.md` | Deploy process, environments | When more complex than 1 command |
+| `.github/SECRETS.md` | CI/CD secrets documentation | Repos with GitHub Actions secrets |
 
 **Naming:** Uppercase, English.
 
@@ -282,6 +283,16 @@ For more complex projects additionally:
 - Troubleshooting guide
 - Maintenance tasks
 - Incident response
+
+**.github/SECRETS.md Content:**
+
+- Secret naming schema
+- Architecture diagram (how secrets flow)
+- GitHub repository secrets
+- External secret store references (Bitwarden, Vault, etc.)
+- Setup instructions
+- Rotation checklist
+- Troubleshooting
 
 ### CONTRIBUTING.md
 
