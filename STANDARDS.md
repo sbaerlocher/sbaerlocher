@@ -140,7 +140,8 @@ Format: Keep a Changelog
 | Continuous Integration | `ci.yml` | Tests, Linting, Type-Check, Coverage |
 | Deployment | `deploy.yml` | Build & Deployment (incl. Terraform) |
 | Release | `release.yml` | Semantic Release (Packages) |
-| Security | `codeql.yml` | Security Scanning (Public only) |
+| Security (Public) | `codeql.yml` | CodeQL Scanning (Public repos) |
+| Security (IaC) | `security.yml` | TFSec, Trivy, Secret Scanning (IaC repos) |
 | Validation | `validate.yml` | YAML/Config Validation (GitOps) |
 | Drift Detection | `drift.yml` | Scheduled Drift Detection (IaC) |
 
@@ -160,7 +161,7 @@ See [templates/workflows/ci.yml](./templates/workflows/ci.yml)
 
 | Repo Type | Workflows |
 |-----------|-----------|
-| Terraform/IaC | `deploy.yml`, `drift.yml` |
+| Terraform/IaC | `deploy.yml`, `drift.yml`, `security.yml` |
 | Applications | `deploy.yml`, `ci.yml` |
 | Packages | `ci.yml`, `release.yml` |
 | GitOps | `validate.yml` |
