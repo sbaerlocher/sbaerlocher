@@ -12,6 +12,7 @@
   "assigneesFromCodeOwners": true,
   "commitMessagePrefix": "chore(deps): ",
   "dependencyDashboard": true,
+  "dependencyDashboardLabels": ["dependencies", "renovate"],
   "packageRules": [
     {
       "description": "Group patch updates & automerge",
