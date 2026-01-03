@@ -145,6 +145,19 @@ Format: Keep a Changelog
 | Validation | `validate.yml` | YAML/Config Validation (GitOps) |
 | Drift Detection | `drift.yml` | Scheduled Drift Detection (IaC) |
 
+**Schedule Frequency:**
+
+Scheduled workflows should run **weekly** (not daily) to minimize unnecessary workflow runs:
+
+```yaml
+schedule:
+  - cron: '0 6 * * 1'  # Weekly Monday 06:00 UTC
+```
+
+Common schedules:
+- `drift.yml`: Monday 06:00 UTC
+- `security.yml`: Monday 02:00 UTC
+
 **ci.yml Structure:**
 
 See [templates/workflows/ci.yml](./templates/workflows/ci.yml)
