@@ -12,6 +12,7 @@
   "assigneesFromCodeOwners": true,
   "commitMessagePrefix": "chore(deps): ",
   "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Dependency Dashboard",
   "dependencyDashboardLabels": ["dependencies", "renovate"],
   "packageRules": [
     {
