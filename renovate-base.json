@@ -32,9 +32,10 @@
       "platformAutomerge": true
     },
     {
-      "description": "Group GitHub Actions & automerge",
+      "description": "Group GitHub Actions & automerge (SHA pinned)",
       "matchManagers": ["github-actions"],
       "groupName": "github-actions",
+      "pinDigests": true,
       "automerge": true,
       "platformAutomerge": true
     },
