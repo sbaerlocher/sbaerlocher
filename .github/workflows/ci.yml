@@ -25,13 +25,6 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@05f32210e84442804257b2a6f20b273450ec8265 # v19.1.0
         with:
           globs: '**/*.md'
-          config: |
-            {
-              "default": true,
-              "MD013": { "line_length": 120, "code_blocks": false, "tables": false },
-              "MD033": false,
-              "MD024": { "siblings_only": true }
-            }
 
   status:
     name: All Checks Passed
