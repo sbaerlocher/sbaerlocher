@@ -25,6 +25,6 @@ sbaerlocher/
 
 ## Related
 
-- **Standards**: `sbaerlocher/.github` → `STANDARDS.md`
+- **Standards**: `sbaerlocher/.github` → `AGENTS.md`
 - **Reusable Workflows**: `sbaerlocher/.github` → `.github/workflows/`
 - **Renovate Presets**: `sbaerlocher/.github` → `renovate-*.json`
