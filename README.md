@@ -4,21 +4,6 @@ IT Solution Architect specializing in infrastructure automation and scalable sys
 
 I transform complex infrastructure into elegant, self-healing solutions — so teams can focus on what matters.
 
-<!--
-  Stats SVGs are served by the self-hosted assets.sbaerlo.ch service.
-  This is a single point of failure: if that service is down, the three
-  images below break with no automatic fallback (GitHub renders static
-  markdown, so no client-side onerror swap is possible).
-
-  Fallback: replace the three <img> src values below with the
-  github-readme-stats equivalents (no self-hosted dependency):
-    Top Languages:
-      https://github-readme-stats.vercel.app/api/top-langs/?username=sbaerlocher&langs_count=5&hide_title=true
-    Stats / Contributions:
-      https://github-readme-stats.vercel.app/api?username=sbaerlocher&show_icons=true&hide_title=true
-  Project Distribution has no direct github-readme-stats equivalent; drop it
-  or substitute another github-readme-stats card.
--->
 <!-- markdownlint-disable MD013 -->
 <div align="center">
   <img src="https://assets.sbaerlo.ch/CJbiSILZvMnTB34NCD1OhUDMqvdTzEMu9tZUKvD58XQ/language/sbaerlocher.svg?limit=5&hideUsername=true" alt="Top Languages" width="33%" />
