@@ -37,7 +37,7 @@ I transform complex infrastructure into elegant, self-healing solutions — so t
 ## Now
 
 <!-- DRAFT: aktuellen Stand eintragen, Datum pflegen. Siehe https://nownownow.com/about -->
-_Last updated: 2026-06_
+Last updated: June 2026.
 
 - 🛠️ Building self-healing infrastructure on **k3s + Fleet** (GitOps all the way down)
 - ☁️ Migrating edge services to **Cloudflare** (Tunnel, Workers)
