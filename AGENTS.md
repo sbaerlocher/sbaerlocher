@@ -15,10 +15,16 @@ live in the central `sbaerlocher/.github` repository.
 sbaerlocher/
 ├── .github/
 │   ├── CODEOWNERS
-│   └── workflows/ci.yml           # Lint (JSON + markdown) for this repo
+│   ├── renovate.json               # Extends sbaerlocher/.github:renovate-base
+│   └── workflows/
+│       ├── pull-request.yml        # Lint (JSON + markdown) for this repo
+│       └── weekly-security.yml     # Weekly security scan (config + secrets)
 ├── .editorconfig                   # Local formatting config
 ├── .prettierrc                     # Local formatting config
-├── renovate.json                   # Extends sbaerlocher/.github:renovate-base
+├── CONTRIBUTING.md                 # Contribution workflow
+├── LICENSE                         # MIT
+├── REVIEW.md                       # Code review guidelines
+├── lefthook.yml                    # Local git hooks
 ├── AGENTS.md / CLAUDE.md           # Agent instructions for this repo
 └── README.md                       # GitHub profile README
 ```
