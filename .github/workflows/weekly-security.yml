@@ -14,6 +14,8 @@ jobs:
       contents: read
       security-events: write
     uses: sbaerlocher/.github/.github/workflows/security-config.yml@2026-08-02
+    with:
+      concurrency-suffix: config
     secrets: inherit
 
   secrets:
@@ -22,4 +24,6 @@ jobs:
       actions: read
       pull-requests: read
     uses: sbaerlocher/.github/.github/workflows/security-secrets.yml@2026-08-02
+    with:
+      concurrency-suffix: secrets
     secrets: inherit
