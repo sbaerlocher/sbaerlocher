@@ -33,10 +33,8 @@ PR titles use the same Conventional Commits subject format.
 Before opening a PR:
 
 - run the relevant local checks where practical
-- update `README.md`, `AGENTS.md`, and `CHANGELOG.md` when behavior changes
+- update `README.md` and `AGENTS.md` when behavior changes
 - pin GitHub Actions to full commit SHA with a version comment
-- use date tags for reusable workflows and internal composite actions
-- document breaking changes and consumer migration notes
 
 ## Local Checks
 
@@ -44,8 +42,8 @@ This repository is mostly YAML, Markdown, and Renovate JSON. Recommended
 checks:
 
 ```bash
-yamllint .github/workflows .github/actions .github/ISSUE_TEMPLATE
-jq empty renovate.json .github/renovate.json renovate-*.json
+yamllint .github/workflows
+jq empty .github/renovate.json
 ```
 
 If `lefthook` is installed, enable local hooks with:
